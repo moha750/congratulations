@@ -28,8 +28,8 @@
   background-color: #015591;
 }
 
-.template {
-  padding-top: 2.5vw;
+.template, .template2 {
+  padding-top: 50px;
   display: flex;
   justify-content: center;
 }
@@ -65,7 +65,7 @@ input {
   text-align: center;
 }
 
-#download-btn {
+#download-btn1, #download-btn2 {
   background-color: #fff;
   text-decoration: none;
   padding: 0.2vw 2vw;
