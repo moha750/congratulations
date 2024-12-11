@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: r;
+}
+
+@font-face {
+  font-family: b;
+  src: url(DUBAI-BOLD.TTF);
+}
+
+@font-face {
+  font-family: l;
+  src: url(DUBAI-LIGHT.TTF);
+}
+
+@font-face {
+  font-family: m;
+  src: url(DUBAI-MEDIUM.TTF);
+}
+
+@font-face {
+  font-family: r;
+  src: url(DUBAI-REGULAR.TTF);
+}
+
+.body {
+  background-color: #015591;
+}
+
+.template {
+  padding-top: 2.5vw;
+  display: flex;
+  justify-content: center;
+}
+
+canvas {
+  border-radius: 20px;
+  width: 30vw;
+  box-shadow: rgba(0, 0, 0, 0.50) 0px 15px 30px;
+}
+
+input {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: none;
+  border-radius: 0.5vw;
+  width: 16vw;
+  height:2.6vw;
+  padding: 0px 1vw;
+  text-align: right;
+  background: #fff;
+  border: 2px solid #015591;
+  color: #015591;
+  font-size: 1.3vw;
+  font-family: b;
+}
+
+.name, .message {
+  display: flex;
+  justify-content: center;
+  margin: 2vw 0vw;
+}
+
+.download {
+  text-align: center;
+}
+
+#download-btn {
+  background-color: #fff;
+  text-decoration: none;
+  padding: 0.2vw 2vw;
+  font-size: 1.3vw;
+  border-radius: 0.5vw;
+  color: #015591;
+  font-family: b;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+footer {
+  padding: 4vw 0vw 2vw;
+  text-align: center;
+}
+
+footer h1 {
+  color: rgb(255, 255, 255);
+  font-size: 1.5vw;
+}
+
+.icons {
+  padding: 1vw ;
+}
+
+i {
+  font-size: 2vw;
+  padding: 0.5vw;
+  margin-right:0.7vw ;
+  margin-left:0.7vw ;
+  color: #015591;
+  width:2vw;
+  height: 2vw;
+  background-color: #fff;
+  border-radius: 50vw;
+  transition: 0.5s ease-in-out;
+}
+
+i:hover {
+  color: #fff;
+  background-color: #015591;
+}
+
+.template3 {
+  grid-area: template3; background-color: #fff;
+  text-align: center;
+  color: #015591;
+ }
+
+ p {
+  font-family: l;
+ }
